@@ -40,7 +40,7 @@ void solve(int arr[], int left, int right, int max, int subCount, int totalCount
         return;
     }
     
-    int after, newCount, leftCount, leftSize = (right - left) / 2;
+    int after, leftSize = (right - left) / 2;
 
     cout << 'Q';
     for(int i = 0; i < left; i++)
@@ -52,10 +52,8 @@ void solve(int arr[], int left, int right, int max, int subCount, int totalCount
     cout << endl;
 
     cin >> after;
-    leftCount = (leftSize + totalCount - after) / 2;
+    int leftCount = (leftSize + totalCount - after) / 2;
 
     solve(arr, left, left + leftSize, max, leftCount, totalCount);
     solve(arr, left + leftSize, right, max, subCount - leftCount, totalCount);
-
-
 }
