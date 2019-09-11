@@ -40,5 +40,5 @@ int main()
     return 0;
 }
 
-// https://csacademy.com/ieeextreme-practice/task/troll-coder/submissions/
+// https://csacademy.com/ieeextreme-practice/task/troll-coder/
 // test your code here

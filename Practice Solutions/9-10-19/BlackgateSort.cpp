@@ -19,20 +19,16 @@ int main()
  
     vector< pair <string, int> > vect;
    
-    string name[n];
-    int height[n];
- 
-    for(int i = 0; i < n; i++){
-       cin >> name[i] >> height[i];
-    }
- 
+    string name;
+    int height;
+
     for (int i=0; i<n; i++){
-       vect.push_back( make_pair(name[i],height[i]) );
+        cin >> name >> height;
+        vect.push_back(make_pair(name,height));
     }
  
     sort(vect.begin(), vect.end(), sortbysec);
- 
-    cout << endl;
+
     int start = 1;
     int val = vect[0].second;
     int end = 1;
@@ -62,4 +58,7 @@ MrHammer 220
 Boody 220
 Muggs 180
 Paulie 180
+
+test your code here
+https://csacademy.com/ieeextreme-practice/task/8761fb7efefcf1d890df1d8d91cae241/
 */
