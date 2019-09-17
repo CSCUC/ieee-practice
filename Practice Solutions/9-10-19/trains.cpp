@@ -68,21 +68,8 @@ int main()
           break;
       }
     }
-
-
-
-
     cout << "CASE #" << tc + 1 << ": " << Astart << ' ' << Bstart << '\n';
-
-
   }
-
-
-
-
-
-
-
   return 0;
 }
 
@@ -95,3 +82,5 @@ bool sortFn(const pair<int,int> &a, const pair<int,int> &b){
   return true;
 }
 */
+
+// https://code.google.com/codejam/contest/32013/dashboard#s=p1

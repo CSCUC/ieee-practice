@@ -2,13 +2,13 @@
 using namespace std;
  
 bool sortbysec(const pair<string,int> &a,
-              const pair<string,int> &b)
+               const pair<string,int> &b)
 {
-   if(a.second != b.second)
-     return (a.second < b.second);
-   if(a.first.compare(b.first) < 0)
-      return true;
-   return false;
+    if(a.second != b.second)
+        return (a.second < b.second);
+    if(a.first.compare(b.first) < 0)
+        return true;
+    return false;
 }
  
 int main()
@@ -36,14 +36,14 @@ int main()
  
     for(int i = 1; i < n; i++){
  
-      if(val != vect[i].second){
-         cout << start << ' ' << end << '\n';
-         start = end + 1;
-         val = vect[i].second;
-      }
-      cout << vect[i].first << ' ';
-      end ++;
-     
+        if(val != vect[i].second){
+            cout << start << ' ' << end << '\n';
+            start = end + 1;
+            val = vect[i].second;
+        }
+        cout << vect[i].first << ' ';
+        end ++;
+        
     }
     cout << start << ' ' << end << '\n' << endl;
  
