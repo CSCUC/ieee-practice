@@ -62,5 +62,6 @@ int main(){
         cout << fib[n] << endl;
     }
 }
+// it took a good bit of time to write that bigInt class..
 // maybe we should try this in python....
 // https://csacademy.com/ieeextreme-practice/task/96c8b1313edd72abf600facb0a14dbab/
