@@ -1,15 +1,14 @@
-for tc in range(int(input())):
+for tc in range(1,int(input()) + 1):
     max = 0
-    maxList = []
-    count = int(input())
-    for i in range(count):
-        stringIn = input().strip()
+    maxName = ""
+    for i in range(int(input())):
+        stringIn = input()
         setChars = set()
-        for c in stringIn:
+        for c in stringIn.strip():
             setChars.add(c)
         if len(setChars) == max:
-            maxList.append(stringIn)
+            maxName = stringIn if stringIn < maxName else maxName
         if len(setChars) > max:
             max = len(setChars)
-            maxList = [stringIn]
-    print(sorted(maxList)[0])
+            maxName = stringIn
+    print("Case#", tc, ": ", maxName, sep='')
