@@ -1,5 +1,9 @@
-for tc in range(int(input())):
-    count = ([0] * (int(input()) - 1)) + [1,1]
-    for i in reversed(range(len(count) - 2)):
-        count[i] = count[i + 1] + count[i + 2]
-    print(count[0])
+testCount = int(input())
+
+fibVals = [1,1]
+for n in range(2, 22001):
+    fibVals.append(fibVals[n-1] + fibVals[n-2])
+
+for tc in range(testCount):
+    val = int(input())
+    print(fibVals[val])

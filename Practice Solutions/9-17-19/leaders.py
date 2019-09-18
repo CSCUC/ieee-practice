@@ -6,7 +6,7 @@ for tc in range(1,int(input()) + 1):
     for i in range(int(input())):
         stringIn = input()
         setChars = set()
-        for c in stringIn.replace(' ', ''):
+        for c in stringIn.replace(' ', ''): # remove all spaces
             setChars.add(c)
         if len(setChars) == max:
             maxName = stringIn if stringIn < maxName else maxName
