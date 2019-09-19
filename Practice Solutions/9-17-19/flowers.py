@@ -1,24 +1,25 @@
-# from collections import deque
+from collections import deque
 
-# for N in range(1,int(input()) + 1):
-#     queue = deque([i for i in range(1, N + 1)])
+for N in range(1,int(input()) + 1):
+    queue = deque([i for i in range(1, N + 1)])
 
-#     while(len(queue) > 1):
-#         val = queue.popleft()
-#         queue.popleft()
-#         queue.append(val)
-#     print("{:10b}   {:10b}".format(N, queue.popleft()))
-
-
-
+    while(len(queue) > 1):
+        val = queue.popleft()
+        queue.popleft()
+        queue.append(val)
+    #print("{:010b}   {:010b}".format(N, queue.popleft()))
+    print(queue.popleft())
 
 
-for tc in range(int(input())):
-    N = int(input())
-    N ^= 1 << N.bit_length() - 1
-    N <<= 1
-    N |= 1
-    print(N)
+
+
+
+# for tc in range(int(input())):
+#     N = int(input())
+#     N ^= 1 << N.bit_length() - 1
+#     N <<= 1
+#     N |= 1
+#     print(N)
 
 
 
