@@ -9,7 +9,7 @@
 #             count += 1
 #             a >>= 1
 #     print(count)
-
+# ^ above solution not fast enough on python
 
 for tc in range(int(input())):
     a, b = [bin(int(n)) for n in input().split()]
@@ -22,4 +22,4 @@ for tc in range(int(input())):
         if c1 != c2:
             unMatch = True
             count += 2
-    print(count)
+    print(count) 

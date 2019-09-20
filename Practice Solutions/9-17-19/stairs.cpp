@@ -51,7 +51,7 @@ int main(){
 
     ios_base::sync_with_stdio(false); 
     cin.tie(NULL);
-    bigInt fib [22000] = {bigInt(1), bigInt(1)};
+    bigInt fib [22001] = {bigInt(1), bigInt(1)};
     for(int i = 2; i < 22001; i++){
         fib[i] = fib[i - 1] + fib[i - 2];
     }

@@ -31,9 +31,9 @@ Input the values `N` in order. As you do, first check to see if `Sum - N` is alr
 </details>
 
 
-</details>
 
-
+[C++](./bearSums.cpp)
+[python](./bearSums.py)
 
 ### Problem 2 
 #### Crypto Disk
@@ -68,6 +68,9 @@ Calculate the `x` and `y` position by using the equations `x = r * cos(θ)` and 
 </p>
 </details>
 
+[C++](./cryptoDisk.cpp)
+[python](./cryptoDisk.py)
+
 
 ### Problem 3
 #### Rumour Tree
@@ -97,6 +100,9 @@ Remove bits from the right of the binary representation until the values are equ
 
 </p>
 </details>
+
+[C++](./rumour.cpp)
+[python](./rumour.py)
 
 ### Tricky Problem 
 #### Great Fence

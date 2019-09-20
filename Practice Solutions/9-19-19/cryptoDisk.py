@@ -12,7 +12,9 @@ dist = 0
 
 for c in input().upper():
     if not c.isalpha(): continue 
-    dist += sqrt( (x - letterMap[c][0]) ** 2 + (y - letterMap[c][1]) ** 2)
+    delta = sqrt( (x - letterMap[c][0]) ** 2 + (y - letterMap[c][1]) ** 2)
+    dist += delta
+    print(c, "   ", delta)
     x, y = (letterMap[c][0], letterMap[c][1])
 
 print(ceil(dist))
