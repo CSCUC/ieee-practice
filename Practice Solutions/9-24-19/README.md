@@ -4,7 +4,7 @@
 #### linked list
 https://www.geeksforgeeks.org/given-a-linked-list-which-is-sorted-how-will-you-insert-in-sorted-way/
 
-### Problem 1 
+### Problem 1
 #### Perfect Team
 https://codeforces.com/contest/1221/problem/C
 
@@ -34,7 +34,7 @@ number of teams possible `= min(M, C, (M + C + N) / 3)`
 
 
 [C++]()
-[python]()
+[python](./perfectTeam.py)
 
 ### Problem 2 
 #### Standing Ovation
@@ -107,4 +107,4 @@ There is a simpler solution, try to find it
 </details>
 
 [C++](./rumour.cpp)
-[python](./rumour.py)
+[python](./2048.py)
