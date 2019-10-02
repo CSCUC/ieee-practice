@@ -32,8 +32,6 @@ number of teams possible `= min(M, C, (M + C + N) / 3)`
 </details>
 
 
-
-[C++]()
 [python](./perfectTeam.py)
 
 ### Problem 2 
@@ -71,8 +69,7 @@ Sum up the number clapping at each node. When inspecting a new node, if the sum 
 </p>
 </details>
 
-[C++](./cryptoDisk.cpp)
-[python](./cryptoDisk.py)
+[python](./ovation.py)
 
 
 ### Problem 3
@@ -106,5 +103,4 @@ There is a simpler solution, try to find it
 </p>
 </details>
 
-[C++](./rumour.cpp)
 [python](./2048.py)

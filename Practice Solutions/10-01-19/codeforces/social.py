@@ -12,3 +12,4 @@ for id in [int(x) for x in input().split()]:
             screenSet.remove(screen.pop())
 print(len(screen))
 print(*screen)
+# https://codeforces.com/contest/1234/problem/B1

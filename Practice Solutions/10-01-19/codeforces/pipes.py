@@ -12,3 +12,4 @@ for tc in range(int(input())):
     else: 
         if rowPos == 1: print("YES")
         else: print("NO")
+# https://codeforces.com/contest/1234/problem/C
