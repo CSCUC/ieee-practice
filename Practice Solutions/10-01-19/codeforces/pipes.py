@@ -3,10 +3,10 @@ for tc in range(int(input())):
     row = [[int(x) for x in list(input())], [int(x) for x in list(input())]]
     rowPos = 0
     for i in range(n):
-        if row[rowPos][i] == 1 or row[rowPos][i] == 2:
+        if row[rowPos][i] < 3
             continue
-        rowPos = 0 if rowPos == 1 else 1 # alt: rowPos = (rowPos + 1) % 2      
-        if row[rowPos][i] == 1 or row[rowPos][i] == 2:
+        rowPos ^= 1 # alt: rowPos = (rowPos + 1) % 2      
+        if row[rowPos][i] < 3
             print("NO")
             break
     else: 
