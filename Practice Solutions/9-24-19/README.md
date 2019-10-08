@@ -1,13 +1,16 @@
 # IEEE Practice 9/24/2019
 
 ### Warmup
+
 #### linked list
+
 https://www.geeksforgeeks.org/given-a-linked-list-which-is-sorted-how-will-you-insert-in-sorted-way/
 
 ### Problem 1
-#### Perfect Team
-https://codeforces.com/contest/1221/problem/C
 
+#### Perfect Team
+
+https://codeforces.com/contest/1221/problem/C
 
 <details><summary>Hint 1</summary>
 <p>
@@ -71,8 +74,8 @@ Sum up the number clapping at each node. When inspecting a new node, if the sum 
 
 [python](./ovation.py)
 
-
 ### Problem 3
+
 #### 2048
 
 https://codeforces.com/contest/1221/problem/A
